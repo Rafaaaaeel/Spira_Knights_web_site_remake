@@ -9,3 +9,14 @@
 html, body{
     height: 100%;
 }
+::-webkit-scrollbar{
+    width: 5px;
+    height: 2px;
+    background: rgb(29, 27, 27);
+}
+::-webkit-scrollbar-track{
+    color:gray;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 183, 255);
+}
