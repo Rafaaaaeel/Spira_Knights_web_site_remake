@@ -9,10 +9,3 @@ item.addEventListener('wheel', event => {
         event.target.scrollBy(-300, 0)
     }
 });
-
-let button_next = document.querySelector('.next_button')
-
-button_next.addEventListener('click', next => {
-    console.log(next)
-    next.target.scr
-})
