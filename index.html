@@ -26,8 +26,8 @@
                 <form action="">
                     <li><a href="">Register</a></li>
                     <li><a href="">Login</a></li>
-                    <li><a  href="#test111">News</a></li>
-                    <li><a  href="#test1111">About</a></li>
+                    <li><a  href="#links_news">News</a></li>
+                    <li><a  href="#links_about">About</a></li>
                 </form>
                 <input type="button" name="" class="header_button" value=" Play Now ">
             </ul>
@@ -39,7 +39,7 @@
     <div  class="video_logo_and_button">
         <a target="_blank" href="https://www.youtube.com/watch?v=P7OQRA2kDyE&ab_channel=SegaAmerica"><img src="img/img_logo_video_test.png" alt=""></a>
         <button>
-            <input id="test111" type="button" value="Play free now">
+            <input id="link_news" type="button" value="Play free now">
         </button>
     </div>
     <section class="video_content">
@@ -55,9 +55,9 @@
     
     <section class="news_content">
         
-        <span id="news_tittle">News -</span>
+        <a href="#"><span id="news_tittle">News -</span></a>
         
-        <button id="test11" class="new_1">
+        <button class="new_1">
             <a target="_blank" href="https://wiki.spiralknights.com/Solstice_Prize_Box_Promotion_December_2020"><img class="img1"   src="img/new1.jpg" alt="News" ></a>
         </button>
         <p class="p1">Spiral HQ is having their annual celebration of the moon during these long winter nights. Through December 26, 2020, the Haven Treasury is offering Solstice Prize Boxes.</p>
@@ -69,13 +69,17 @@
             <a target="_blank" href="https://wiki.spiralknights.com/Shroud_of_the_Apocrea"><img class="img3"   src="img/new3.jpg" alt="" >
         </button></a>
         <p class="p3">We have confirmed that the Apocrean Harvester has returned once again. Spiral HQ needs your help!</p>
+        <button class="new_4">
+            <a target="_blank" href="https://wiki.spiralknights.com/Shroud_of_the_Apocrea"><img class="img4"   src="img/new3.jpg" alt="" >
+        </button></a>
+        <p class="p4">We have confirmed that the Apocrean Harvester has returned once again. Spiral HQ needs your help!</p>
         <div id="line_ajust"></div>
-        <a href=""><span>Read more -</span></a>
+        <a id="read_more"><span onclick="clicar()" onclick="clicarf()" >Read more -</span></a>
         
     </section>
     
     <section class="universe_content">
-        <video id="background_video" autoplay loop src="vd/Video_background_final.Video_background_final.mp4">
+        <video id="background_video" autoplay="true" loop src="vd/Video_background_final.Video_background_final.mp4">
         </video>
         <div class="universe_content_background">
             
@@ -96,7 +100,7 @@
     <section  class="items_contents">
         <img class="spr_dragon"  src="img/drag_spr.png" alt="">
         <div class="box_1">
-            <h1 id="test1111"  >You have crashed</h1>
+            <h1 id="links_about"  >You have crashed</h1>
             <h3 id="first_tittle" >You are stranded.<br>But you are not alone.</h3>
             <p id="first_p">The Spiral Knights have awoken on an alien world. Their equipment stores have been raided and their starship, The Skylark, will not recover from the crash. Now they must work together to survive on a journey that will take them to the very core of the world.</p>
             <img class="space_ship" src="img/space_ship.png" alt="">
@@ -131,15 +135,21 @@
     
     <footer>
         <section class="footer_links">
-            <a>Spiral Knights</a>
-            <a>Play</a>
-            <a>About</a>
-            <a>Midia</a>
-            <a>Forums</a>
-            <a>Wiki</a>
-            <a>Terms</a>
-            <a>Privacy</a>
+            <img src="img/Icon/Play_icon.png" alt=""><a href="#">Spiral Knights</a>
+            <img src="img/Icon/Play_icon.png" alt=""><a href="#">Play</a>
+            <img src="img/Icon/About_icon.png" alt=""><a href="#">About</a>
+            <img src="img/Icon/Media_icon.png" alt=""><a href="#">Midia</a>
+            <img src="img/Icon/Forums_icon.png" alt=""><a href="#">Forums</a>
+            <img src="img/Icon/Wiki_icon.png" alt=""><a href="#">Wiki</a>
+            <div class="footer_terms">
+                <a href="">Terms</a>
+                <div id="vertical_line"></div>
+                <a href="">Privacy</a>
+            </div>
         </section>
+        
+        <hr>
+        
         <section class="footer_questions">
             <a href="#">My account</a>
             <a href="#">Frequently Asked Questions</a>

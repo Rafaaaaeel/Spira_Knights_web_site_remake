@@ -97,7 +97,10 @@ form,li, a{
     z-index: 1;
     left: 35%;
     top: 52%;
-    
+    transition: 0.2s ease-in-out;
+}
+.video_logo_and_button:hover{
+    transform: scale(1.2);
 }
 
 .video_logo_and_button button{
@@ -126,7 +129,7 @@ form,li, a{
     transition: 0.2s all ease-in-out;
 }
 .video_logo_and_button input:hover{
-    
+    transform: scale(1.2);
     background-color: rgb(4, 142, 184)
 }
 .video_logo_and_button input:active{
@@ -166,26 +169,40 @@ form,li, a{
     background-color: rgb(243, 243, 243);
     z-index: 1;
     margin-top: 1%;
+    transition: 0.4s;
 }
 
 .news_content #news_tittle{
     letter-spacing: 1.5px;
-    color: black;
+    color: rgb(29, 27, 27);
     margin-bottom: 1%;
     transform: rotate(180deg);
     display: inline;
     writing-mode:vertical-lr;
+    transition: 0.2s ease-in-out;
 }
-.news_content a{ 
+.news_content #news_tittle:hover{
+    letter-spacing: 5px;
+    margin-bottom: 0%;
+}
+
+.news_content #read_more{ 
     letter-spacing: 1.5px;
-    color: violet;
+    color: rgb(29, 27, 27);
     margin-bottom: -1.2%;
     position: relative;
     transform: rotate(360deg);
     display: inline;
-    margin-left: %;
+    margin-left: 98%;
+    bottom: 152%;
     writing-mode:vertical-lr;
     z-index:1;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.news_content #read_more:hover{
+    letter-spacing: 5px;
+    bottom: 160%;
 }
 .news_content .new_1{
     margin-top: 4%;
@@ -220,7 +237,7 @@ form,li, a{
     color: black;
     position: absolute;
     margin-top: 4.8%;
-    margin-left: -125px;
+    margin-left: -9%;
     
 }
 /*part 2*/
@@ -258,7 +275,7 @@ form,li, a{
     color: black;
     position: absolute;
     margin-top: 4.8%;
-    margin-left: -125px;
+    margin-left: -9%;
     
 }
 /*part 3*/
@@ -294,15 +311,46 @@ form,li, a{
     color: black;
     position: absolute;
     margin-top: 4.8%;
-    margin-left: -125px;
+    margin-left: -9%;
     
 }
+
+.news_content .img4{
+    width: 120px;
+    height: 100px;
+    border-radius: 2px;
+    position: relative;
+    left: -58px;
+    top: -2px;
+    transition: 0.2s all ease-in-out;
+}
+
+.news_content .new_4{
+    display: inline;
+    padding: 1% calc(-4px);
+    width: 260px;
+    outline: none;
+    display: inline;
+    margin-top: 8%;
+    margin-left: 4%;
+    background: none;
+    border:1px outset rgba(51, 51, 51, 0.233) ;
+}
+.news_content .p4{
+    width: 14%;
+    display: inline;
+    color: black;
+    position: absolute;
+    margin-top: 8.8%;
+    margin-left: -9%;
+}
+
 #line_ajust{
     width: 100%;
-    height: 10px;
+    height: 5%;
     background-color: rgb(243, 243, 243);
     position: relative;
-    margin-top: 3.4%;
+    bottom: 190px;
     z-index: 1;
 
 }
@@ -422,7 +470,7 @@ form,li, a{
     width: 43%;
     position: relative;
     margin-left: 45%;
-    bottom: 140px;
+    bottom: 180px;
     border-radius: 2px;
 }
 
@@ -446,7 +494,7 @@ form,li, a{
     position: relative;
     margin-left: 70%;
     display: inline-block;
-    bottom: 200px;
+    bottom: 300px;
 }
 /*Itm content - Box 2 END*/
 
@@ -499,21 +547,76 @@ form,li, a{
 
 .items_contents .knights_friends{
     width: 90%;
-    position: relative;
-    bottom: 170px;
+    position: absolute;
+    bottom: 5px;
     margin-left: 5%;
 }
 
-.carousel{
+/*Carousel section*/
+
+.carousel_box{
+    
     width: 100%;
-    height: 200px;
-    background-color: violet;
-    z-index: 1;
+    height: 300px;
+    background-color: yellowgreen;
 }
+
+
+/*Carousel section END*/
+
 /*Footer*/
 
+footer{
+   /* background-image: url(../img/Footer_background.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;*/
+    background-color:green;
+}
+
+
+.footer_links {
+    
+    display: inline;
+    margin-left: 1%;
+    color: white;   
+    
+}
+.footer_links img{
+
+    top: 3px;
+    position: relative;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.footer_terms{
+    margin-left: 18%;
+    display: inline;
+
+}
+.footer_terms #vertical_line{
+
+    border-left: 2px solid;  
+    display: inline;
+    ;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+footer hr{
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.521); 
+    margin-top: 4%;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
 .footer_questions a{
-    color: black;
+    display: inline-block;
+    padding-left:10%;
+    padding: -4px;
+    margin-top: 5%;
+    color: white;
     position: relative;
 }
 .copyright{
