@@ -13,16 +13,39 @@ hr{
     border:1px solid rgba(29, 27, 27, 0.897);
     
 }
+
 form,li, a{
     color: white;
     text-decoration: none;
     
 }
+.cool_link::after{
+    position: relative;
+    top: 41px;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: rgb(70, 178, 240);
+    transition: width .3s;
+}
 
+.cool_link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
 .logo{
     width: 100px;
     opacity: 50%;
-    margin-left: 4.2%;
+    margin-left: 1%;
+}
+#header_vertical_line{
+    width: 1.3px;
+    height: 5%;
+    margin-top: 0.5%;
+    margin-left: 9%;
+    position: absolute;
+    background-color: rgb(43, 43, 43);
 }
 .logo2{
     width: 100px;
@@ -40,6 +63,7 @@ form,li, a{
     padding: 0px 20px;   
 }
 .nav__links a:hover{
+    
     color:rgb(70, 178, 240);
     transition: 0.2s; 
 }
@@ -352,6 +376,7 @@ form,li, a{
     position: relative;
     bottom: 190px;
     z-index: 1;
+    transition: 0.4s all ease-in-out
 
 }
 .universe_content{
