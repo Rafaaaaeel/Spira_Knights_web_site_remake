@@ -6,7 +6,7 @@ header{
     justify-content: space-between;
     align-items: center;
     display: flex;
-    padding: 30px 10%;
+    padding: 30px 6.9%;
 }
 hr{
     
@@ -22,7 +22,7 @@ form,li, a{
 .logo{
     width: 100px;
     opacity: 50%;
-    margin-left: 12px;
+    margin-left: 4.2%;
 }
 .logo2{
     width: 100px;
@@ -62,12 +62,14 @@ form,li, a{
     font-size: 18px;
     cursor: pointer;
     outline: none;
+    transition: 0.2s all ease-in-out;
+    
 }
 .header_button:active{
     color: rgb(29, 27, 27);
 }
 .header_button:hover{
-    transition: 0.2s;
+    
     background-color: rgb(4, 142, 184)
 }
 /*Header nav END*/
@@ -121,9 +123,10 @@ form,li, a{
     cursor: pointer;
     outline: none;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.733);
+    transition: 0.2s all ease-in-out;
 }
 .video_logo_and_button input:hover{
-    transition: 0.2s all ease-in-out;
+    
     background-color: rgb(4, 142, 184)
 }
 .video_logo_and_button input:active{
@@ -165,13 +168,24 @@ form,li, a{
     margin-top: 1%;
 }
 
-.news_content span{
+.news_content #news_tittle{
     letter-spacing: 1.5px;
     color: black;
     margin-bottom: 1%;
     transform: rotate(180deg);
     display: inline;
     writing-mode:vertical-lr;
+}
+.news_content a{ 
+    letter-spacing: 1.5px;
+    color: violet;
+    margin-bottom: -1.2%;
+    position: relative;
+    transform: rotate(360deg);
+    display: inline;
+    margin-left: %;
+    writing-mode:vertical-lr;
+    z-index:1;
 }
 .news_content .new_1{
     margin-top: 4%;
@@ -194,11 +208,12 @@ form,li, a{
     position: relative;
     left: -60px;
     top: -2px;
-}
-.news_content .img1:hover{
-    transform: scale(1.1);
     transition: 0.2s all ease-in-out;
 }
+
+.news_content .img1:hover{
+    transform: scale(1.1);
+}  
 .news_content .p1{
     width: 20%;
     display: inline;
@@ -231,10 +246,11 @@ form,li, a{
     position: relative;
     left: -60px;
     top: -2px;
+    transition: 0.2s all ease-in-out;
 }
 .news_content .img2:hover{
     transform: scale(1.1);
-    transition: 0.2s all ease-in-out;
+    
 }
 .news_content .p2{
     width: 20%;
@@ -266,10 +282,11 @@ form,li, a{
     position: relative;
     left: -60px;
     top: -2px;
+    transition: 0.2s all ease-in-out;
 }
 .news_content .img3:hover{
     transform: scale(1.1);
-    transition: 0.2s all ease-in-out;
+    
 }
 .news_content .p3{
     width: 14%;
@@ -345,7 +362,7 @@ form,li, a{
 .items_contents{
     
     width: 100%;
-    height: 2400px;
+    height: 1950px;
     background-image: url(../img/Background_test-2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -487,6 +504,12 @@ form,li, a{
     margin-left: 5%;
 }
 
+.carousel{
+    width: 100%;
+    height: 200px;
+    background-color: violet;
+    z-index: 1;
+}
 /*Footer*/
 
 .footer_questions a{
