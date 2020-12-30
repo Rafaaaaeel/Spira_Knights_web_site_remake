@@ -1,26 +1,35 @@
-window.onload()
-
+    
+    
+    
+    
+    
 function clicar(){
     let newsContent = document.querySelector('.news_content')
     let readMore = document.querySelector('#read_more')
     let newsTittle = document.querySelector('#news_tittle')
-    let gambiarra = document.querySelector("#line_ajust")
-    gambiarra.style.bottom = "-81px" //Ajust line 
+    let LineAjust = document.querySelector("#line_ajust")
+    LineAjust.style.bottom = "-81px" //Ajust line 
     newsTittle.style.marginBottom = "-10%"
-    readMore.style.bottom = "40%"
+    readMore.style.display = "none"
+    LineAjust.style.transition = '0.4s'
     newsTittle.innerHTML = "News"
-    readMore.innerHTML = "Read more"
     newsContent.style.height = "500px"
-    let test;
-    test = 1
-}
-function over(){
-    readMore.style.bottom ="20%"
-}
-function clicarF(){
+    let arrow = document.querySelector(".arrow_box")
+    arrow.style.display = "initial"
     
-    if(test == 1){
-        readMore.style.height = "230px"
-        test--
-    }
+}
+
+
+function close_news(){
+    let newsTittle = document.querySelector('#news_tittle')
+    newsTittle.style.marginBottom = "2%"
+    let newsContent = document.querySelector('.news_content')
+    newsContent.style.height = "230px"
+    let LineAjust = document.querySelector("#line_ajust")
+    LineAjust.style.bottom = "190px" //Ajust line
+    LineAjust.style.transition = '0.1s'
+    let readMore = document.querySelector('#read_more')
+    readMore.style.display = 'initial'
+    let arrow = document.querySelector(".arrow_box")
+    arrow.style.display = "none"
 }
