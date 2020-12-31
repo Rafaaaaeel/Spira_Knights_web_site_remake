@@ -46,11 +46,14 @@ form,li, a{
     margin-left: 9%;
     position: absolute;
     background-color: rgb(43, 43, 43);
+    box-shadow: 1px 1px 2px rgba(29, 29, 29, 0.986);
 }
 .logo2{
     width: 100px;
     margin-top:4px;
     margin-right: 310px;
+    opacity: 95%;
+    
 }
 
 .nav__links{
@@ -194,6 +197,7 @@ form,li, a{
     z-index: 1;
     margin-top: 1%;
     transition: 0.4s;
+    
 }
 #link__new{
     color:rgb(70, 182, 255);
@@ -282,6 +286,7 @@ form,li, a{
     left: -60px;
     top: -2px;
     transition: 0.2s all ease-in-out;
+    
 }
 
 .news_content .img1:hover , .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover{
@@ -479,13 +484,8 @@ form,li, a{
     filter: blur(2px);
 }
 
-.content_img{
-    display: inline;
-    overflow: hidden;
-    
-}
 .content_img video{
-    display: inline-block;
+    
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.568);
     width: 400px;
     margin-top: 11px;
@@ -494,6 +494,7 @@ form,li, a{
     position: relative;
     right: 60px;
     transition: 0.2s all ease-in-out;
+    
     
 }
 
@@ -522,7 +523,7 @@ form,li, a{
 .items_contents{
     
     width: 100%;
-    height: 1950px;
+    height: 1800px;
     background-image: url(../img/Background_test-2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -568,13 +569,13 @@ form,li, a{
     width: 70%;
     margin-top: 2%;
     margin-left: 1%;
+    z-index: 1;
 }
 /*Item content - Box 2 */
 .box_2{
     display: inline-block;
     position: relative;
-    margin-top: 28%;
-    top: 90px;
+    margin-top: 2%;
     
 }
 #video_test{
@@ -582,10 +583,18 @@ form,li, a{
     width: 43%;
     position: relative;
     margin-left: 45%;
-    bottom: 180px;
+    bottom: 328px;
     border-radius: 2px;
 }
-
+#video_story_1{
+    float: right;
+    position: relative;
+    width: 43%;
+    margin-top: 32%;
+    margin-right: 12%;
+    border-radius: 2px;
+    
+}
 .items_contents #second_tittle{
     letter-spacing: 2px;
     font-weight: normal;
@@ -616,7 +625,7 @@ form,li, a{
 .box_3{
     display: inline-block;
     position: relative;
-    bottom: 473px;
+    bottom: 663px;
     margin-left: 9%;
 }
 
@@ -642,7 +651,7 @@ form,li, a{
     display: inline-block;
     position: relative;
     margin-left: 50%;
-    bottom: 660px;
+    bottom: 760px;
 }
 
 .items_contents #fourty_tittle{
@@ -666,13 +675,55 @@ form,li, a{
 
 /*Carousel section*/
 
-.carousel_box{
-    
+.modes_content{
+    background-image: url(../img/Background_modes1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     width: 100%;
-    height: 300px;
-    background-color: yellowgreen;
+    height: 600px;
+    background-color: rgb(243, 243, 243);
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+.modes_header{
+    position: relative;
+    margin-left: 43%;
+    top: 15px;
+    
+}
+.modes_header h1{
+    letter-spacing: 5px;
+    font-weight: normal;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
 }
 
+#cat{
+    margin-left: 90%;
+    width: 10%;
+    position: absolute;
+    top: 3100px;
+}
+.modes_box{
+    margin-left: 20%;
+    position: relative;
+    transition: 0.2s ease-in-out;
+    
+}
+
+.modes_content #mode1, #mode2, #mode3{
+   width: 25%;
+   height: 420px;
+   margin-top: 4.3%;
+   border-radius: 2px;
+   transition: 0.2s ease-in-out;
+   
+   overflow: hidden;
+}
+#mode1:hover,#mode2:hover,#mode3:hover{
+    transform: scale(1.1);
+}
 
 /*Carousel section END*/
 
@@ -684,7 +735,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;*/
-    background-color:green;
+    background-color:rgb(26, 26, 26);
 }
 
 

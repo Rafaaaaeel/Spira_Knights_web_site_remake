@@ -14,7 +14,7 @@
 <body>
     <header>
         <img class="logo" src="img/SEGA_logo1.png" alt="">
-        <div id="headervertical_line"></div>
+        <div id="header_vertical_line"></div>
         <img class="logo2" src="img/img_logo_video.png" alt="">
         <nav>
             <ul class="nav__links">
@@ -34,7 +34,6 @@
             </ul>
         </nav>
     </header>
-
     <hr> 
     <div class="background_just"></div>
     <div class="video_border"></div>
@@ -76,48 +75,39 @@
         </button></a>
         <p class="p4">Hear ye! Hear Ye! Winterfest is upon Ye!
             <br><br>
-            Impostoclaus’ favorite time of the year is here once again. Mount Krampus is abuzz with excitement as knights begin the task to <a id="link__new" target="_blank" href="https://wiki.spiralknights.com/Save_Winterfest">Save Winterfest!!</a> 
-            
+            Impostoclaus’ favorite time of the year is here once again. Mount Krampus is abuzz with excitement as knights begin the task to <a id="link__new" target="_blank" href="https://wiki.spiralknights.com/Save_Winterfest">Save Winterfest!!</a>
             </p>
-
-
         <button class="new_5">
             <a target="_blank" href="https://wiki.spiralknights.com/Shroud_of_the_Apocrea"><img class="img5"   src="img/new5.png" alt="" >
         </button></a>
         <p class="p5">Knights,
             <br><br>
             The <strong>Dark Harvest Festival</strong>  makes its return! It’s no trick, the <strong> Punkin King </strong> and his gourdlings are causing sweet, sweet chaos in the Clockworks!</p>
-
         <button class="new_6">
             <a target="_blank" href="https://wiki.spiralknights.com/Shroud_of_the_Apocrea"><img class="img6"   src="img/new6.png" alt="" >
         </button></a>
         <p class="p5">Our plump little friends, the Gobble Snipes, are on their yearly migration to...we're not really sure where. Hmm. To protect them in transit we Spiral HQ has enclosed them in <strong>Gobble Snipe Boxes</strong> Boxes. Rest assured I’ve been told there are air holes this time.</p>
-
-        <button class="arrow_box" onclick="close_news()">
+        <button class="arrow_box" >
             <img id="arrow_close" src="img/Icon/close_arrow_icon.png" alt="">
         </button>
         <div id="line_ajust"></div>
-        <a id="read_more"><span onclick="clicar()">Read more -</span></a>
-        
+        <a id="read_more"><span>Read more -</span></a>
     </section>
     
     <section class="universe_content">
         <video id="background_video" autoplay loop src="vd/Video_background_final.Video_background_final.mp4">
         </video>
         <div class="universe_content_background">
-            
             <div class="content_img">
                 <div class="img_border_content">
                     <video autoplay loop muted src="vd/Video1.mp4" alt=""></video>
                 </div>
-                
                 <div class="img_border_content">
                     <video autoplay muted loop src="vd/Video2.mp4" alt=""></video>
                 </div>
             </div>
             </div>
         </div>
-        
     </section>
     
     <section  class="items_contents">
@@ -128,7 +118,9 @@
             <p id="first_p">The Spiral Knights have awoken on an alien world. Their equipment stores have been raided and their starship, The Skylark, will not recover from the crash. Now they must work together to survive on a journey that will take them to the very core of the world.</p>
             <img class="space_ship" src="img/space_ship.png" alt="">
         </div><!--Box 1-->
-        
+        <video muted autoplay loop id="video_story_1">
+            <source src="vd/Video0.mp4">
+        </video>
         <div class="box_2">
             <h3 id="second_tittle">Take up your arms!</h3>
             <p id="second_p">Cradle is a hostile planet teeming with all manner of alien creatures. Any hope of survival you may have rests on your ability to amass an arsenal of weapons and gear that will provide you with the right options for any environment. As a Spiral Knight you have total freedom to customize and use your arsenal however you choose!</p>
@@ -152,8 +144,17 @@
         
     </section><!--Items content-->
 
-    <section class="carousel_box">
-        
+    <section class="modes_content">
+        <div class="modes_header">
+            <h1>Any modes to play</h1>
+        </div>
+        <img id="cat" src="img/cat_spr.png" alt="">
+        <div class="modes_box">
+            <img id="mode1" src="img/blastmode1.png" alt="">
+            
+            <img id="mode2" src="img/lockdown.png" alt="">
+            <img id="mode3" src="img/rise_knights.png" alt=""> 
+        </div>       
     </section>
     
     <footer>
