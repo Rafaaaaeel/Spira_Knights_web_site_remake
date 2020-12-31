@@ -718,11 +718,23 @@ form,li, a{
    margin-top: 4.3%;
    border-radius: 2px;
    transition: 0.2s ease-in-out;
-   
    overflow: hidden;
 }
 #mode1:hover,#mode2:hover,#mode3:hover{
     transform: scale(1.1);
+}
+
+#mode1{
+    position: absolute;
+    margin-left: 8%;
+}
+#mode2{
+    position: absolute;
+    margin-left: 4%;
+}
+#mode3{
+    position: absolute;
+    
 }
 
 /*Carousel section END*/
