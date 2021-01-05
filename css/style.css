@@ -77,7 +77,6 @@ form,li, a{
     background-color:rgb(29, 27, 27);
     cursor: pointer;
 }
-
 .header_button{
     width: 120px;
     height: 40px;
@@ -704,7 +703,8 @@ form,li, a{
     letter-spacing: 5px;
     font-weight: normal;
     font-family: 'Staatliches', cursive;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.712);
+    color: white;
 }
 
 
@@ -725,6 +725,7 @@ form,li, a{
 }
 #mode1:hover,#mode2:hover,#mode3:hover{
     transform: scale(1.1);
+    opacity: 100%;
 }
 
 #mode1{
@@ -734,10 +735,11 @@ form,li, a{
 #mode2{
     position: absolute;
     margin-left: 4%;
+    opacity: 60%;
 }
 #mode3{
     position: absolute;
-    
+    opacity: 30%;
 }
 #mode_tittle{
     margin-top: 4.2%;
@@ -749,7 +751,6 @@ form,li, a{
     margin-top: 1%;
     width: 20%;
     position: absolute;
-    
 }
 #mode_p a{
     color:rgb(70, 182, 255);
@@ -758,6 +759,21 @@ form,li, a{
 #mode_p a:hover{
     color:rgb(4, 142, 184);
     text-decoration: underline;
+}
+.close_bt img{
+    margin-left: 25%;
+    top: 7%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+}
+#xbt{
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+.close_bt img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 /*Carousel section END*/
 
