@@ -69,26 +69,26 @@ window.onload = function () {
     var modes_tittle = document.querySelector('#modes_t')
 
     mode_3.addEventListener('click', function () {
+
         if(position_x == 1){
-            mode_2.style.zIndex = '-1'
+            mode_2.style.zIndex = '-1' 
         }
-        document.querySelector('#mode_p').innerHTML = "<iframe width='660' height='415' style='position: absolute; top:-55px;' src='https://www.youtube.com/embed/0dYfMPYhPvQ' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        
         document.querySelector('#btest').style.opacity = '100%'
         document.querySelector('#modes_t').style.color = 'white'
+        document.querySelector('#mode_p').innerHTML = "<iframe width='660' height='415' style='position: absolute; top:-55px;' src='https://www.youtube.com/embed/0dYfMPYhPvQ' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        
         
         close_x_button.style.display = 'initial'
         close_x_button.style.zIndex = '1'
-        
-        
         modes_tittle.style.color = 'rgb(24, 24, 24)'
         modes_tittle.style.textShadow = 'none'
-        this.style.transform = 'scale(1.2)'
         mode_2.style.marginLeft ='8%'
-        this.style.marginLeft = "8%"
         mode_1.style.marginLeft = '8%'
+        this.style.marginLeft = "8%"
         this.style.zIndex = '1'
         this.style.opacity = '100%'
-        
+        this.style.transform = 'scale(1.2)'
     })
     close_x_button.addEventListener('click', ()=>{
         document.querySelector('#btest').style.opacity = '0%'
