@@ -9,9 +9,7 @@ header{
     padding: 30px 6.9%;
 }
 hr{
-    
     border:1px solid rgba(29, 27, 27, 0.897);
-    
 }
 
 form,li, a{
@@ -53,20 +51,16 @@ form,li, a{
     margin-top:4px;
     margin-right: 310px;
     opacity: 95%;
-    
 }
 
 .nav__links{
     list-style: none;
-    
-    
 }
 .nav__links li,form{
     display: inline-block;
     padding: 0px 20px;   
 }
 .nav__links a:hover{
-    
     color:rgb(70, 178, 240);
     transition: 0.2s; 
 }
@@ -89,13 +83,11 @@ form,li, a{
     cursor: pointer;
     outline: none;
     transition: 0.2s all ease-in-out;
-    
 }
 .header_button:active{
     color: rgb(29, 27, 27);
 }
 .header_button:hover{
-    
     background-color: rgb(4, 142, 184)
 }
 /*Header nav END*/
@@ -114,11 +106,9 @@ form,li, a{
 /*Video section, background, and content*/
 .video_content{
     background-size: cover;
-
 }
 
 .video_logo_and_button{
-
     position: absolute;
     z-index: 1;
     left: 35%;
@@ -136,8 +126,6 @@ form,li, a{
     background: none;
     outline: none;
     border: none;
-    
-    
 }
 .video_logo_and_button input{
     margin-top: 4px;
@@ -174,7 +162,6 @@ form,li, a{
     position: absolute;
     width: 100%;
     filter: blur(10px);
-    
     z-index: -1;
 }
 .video_up{
@@ -185,7 +172,6 @@ form,li, a{
     width: 80%;
     margin-left: 11%;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.788);
-    
 }
 /*Video section END*/
 
@@ -196,7 +182,6 @@ form,li, a{
     z-index: 1;
     margin-top: 1%;
     transition: 0.4s;
-    
 }
 #link__new{
     color:rgb(70, 182, 255);
@@ -274,10 +259,8 @@ form,li, a{
     padding: 1%;
     margin-left: 2%;
     border-bottom: 0px 20px 0px 0px;
-    
 }
 .news_content .img1{
-    
     width: 120px;
     height: 100px;
     border-radius: 2px;
@@ -285,7 +268,6 @@ form,li, a{
     left: -60px;
     top: -2px;
     transition: 0.2s all ease-in-out;
-    
 }
 
 .news_content .img1:hover , .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover{
@@ -298,7 +280,6 @@ form,li, a{
     position: absolute;
     margin-top: 4.8%;
     margin-left: -9%;
-    
 }
 /*part 2*/
 
@@ -313,7 +294,6 @@ form,li, a{
     padding: 1%;
     margin-left: 14%;
     border-bottom: 0px 20px 0px 0px;
-    
 }
 .news_content .img2{
     
@@ -474,6 +454,7 @@ form,li, a{
 .universe_content{
     background-color: black;
     height: 400px;
+    
 }
 #background_video{
     position: absolute;
@@ -484,7 +465,6 @@ form,li, a{
 }
 
 .content_img video{
-    
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.568);
     width: 400px;
     margin-top: 11px;
@@ -493,12 +473,13 @@ form,li, a{
     position: relative;
     right: 60px;
     transition: 0.2s all ease-in-out;
-    
+    overflow: hidden;
     
 }
 
 .content_img video:hover{
     transform: scale(1.4);
+    
 }
 .img_border_content{
     position: relative;
@@ -520,10 +501,9 @@ form,li, a{
 
 /*Section 4 Items content*/
 .items_contents{
-    
     width: 100%;
     height: 1800px;
-    background-image: url(../img/Background_test-2.png);
+    background-image: url(../img/background/Background_black.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -675,7 +655,7 @@ form,li, a{
 /*Carousel section*/
 
 .modes_content{
-    background-image: url(../img/Background_modes1.png);
+    background-image: url(../img/background/Background_modes.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -706,15 +686,12 @@ form,li, a{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.712);
     color: white;
 }
-
-
 .modes_box{
     margin-left: 20%;
     position: relative;
     transition: 0.2s ease-in-out;
     
 }
-
 .modes_content #mode1, #mode2, #mode3{
    width: 25%;
    height: 420px;
@@ -780,21 +757,14 @@ form,li, a{
 /*Footer*/
 
 footer{
-   /* background-image: url(../img/Footer_background.gif);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;*/
     background-color:rgb(26, 26, 26);
 }
 
 
 .footer_links {
-    
     display: inline;
     margin-left: 1%;
     color: white;   
-    
 }
 .footer_links img{
 
@@ -809,10 +779,9 @@ footer{
 
 }
 .footer_terms #vertical_line{
-
+    text-align: center;
     border-left: 2px solid;  
     display: inline;
-    ;
     margin-left: 1%;
     margin-right: 1%;
 }
@@ -823,11 +792,8 @@ footer hr{
     margin-left: 5%;
     
 }
-
 .footer_questions a{
-    display: inline-block;
-    padding-left:10%;
-    padding: -4px;
+    margin-left:100px;
     margin-top: 5%;
     color: white;
     position: relative;
@@ -837,8 +803,6 @@ footer hr{
     display: inline-block;
     width: 100%;
     height: 120px;
-    text-align: center;
-
 }
 .copyright span{
     display: block;

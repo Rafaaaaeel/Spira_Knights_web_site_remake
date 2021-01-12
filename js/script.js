@@ -102,6 +102,14 @@ window.onload = function () {
         mode_3.style.opacity = '30%'
         close_x_button.style.display = 'none'
         modes_tittle.style.textShadow = '1px 1px 1px rgba(0, 0, 0, 0.712)'
-
+        
     })
+    
+    const list = document.querySelector('#list')
+    let test;
+    list.addEventListener('change', function getSelectValue(){
+         test = list.value;
+        
+    })
+    console.log(test);
 }
