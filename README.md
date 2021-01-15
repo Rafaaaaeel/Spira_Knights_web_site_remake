@@ -1,10 +1,11 @@
-# Spira_Knights_web_site_remake
+### Spira_Knights_web_site_remake
 Spiral knigts web site remake, for study
 #
+## Why do yhis?
+I create this web site for study, and training my html, css and Js..
 #
-#I create this web site for study, and training my html, css, Js, and in the final php.
-#
-#Have so much to do for now, in the final i´ll go a gave all the credits for any image i use in the web site.
+## legal
+I don´t have permision to use the images on this project, but the website is only for me. 
 #
 #
 
