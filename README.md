@@ -1,4 +1,4 @@
-## Spira_Knights_web_site_remake
+## Spiral Knights webSite remake concept
 Spiral knigts web site remake, for study
 #
 # Why do this?
