@@ -71,18 +71,18 @@ form,li, a{
     background-color:rgb(29, 27, 27);
     cursor: pointer;
 }
-.header_button{
-    width: 120px;
-    height: 40px;
-    border: none;
-    border-radius: 2px;
-    color: white;
-    background-color: rgb(70, 182, 255);
-    display: inline-block;
-    font-size: 18px;
+#play_now{
+    width: 24%;
+    margin-top: -3%;
+    position: relative;
+    z-index: 1;
+    top: 12px;
     cursor: pointer;
-    outline: none;
-    transition: 0.2s all ease-in-out;
+    opacity: 60%;
+    transition: 0.2s ease-in-out;
+}
+#play_now:hover{
+    opacity: 100%;
 }
 .header_button:active{
     color: rgb(29, 27, 27);
@@ -724,10 +724,11 @@ form,li, a{
     font-weight: normal;
 }
 #mode_p{
-    margin-left: 50%;
+    margin-left: 49%;
     margin-top: 1%;
     width: 20%;
     position: absolute;
+    z-index: 1;
 }
 #mode_p a{
     color:rgb(70, 182, 255);
@@ -737,18 +738,29 @@ form,li, a{
     color:rgb(4, 142, 184);
     text-decoration: underline;
 }
+
 .close_bt img{
     margin-left: 25%;
     top: 7%;
     position: absolute;
     transition: 0.2s ease-in-out;
 }
+#kromo{
+    width: 500px;
+    position: relative;
+    left: 520px;
+    z-index: 1;
+    top: -100px;
+    opacity: 60%;
+    transition: 0.2s ease-in-out;
+}
+
 #xbt{
     display: none;
     width: 20px;
     height: 20px;
 }
-.close_bt img:hover{
+.close_bt #xbt:hover{
     transform: scale(1.2);
     cursor: pointer;
 }

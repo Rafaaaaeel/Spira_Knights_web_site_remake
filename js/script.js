@@ -89,6 +89,7 @@ window.onload = function () {
         this.style.zIndex = '1'
         this.style.opacity = '100%'
         this.style.transform = 'scale(1.2)'
+        document.querySelector('#kromo').style.display = 'none'
     })
     close_x_button.addEventListener('click', ()=>{
         document.querySelector('#btest').style.opacity = '0%'
@@ -102,6 +103,7 @@ window.onload = function () {
         mode_3.style.opacity = '30%'
         close_x_button.style.display = 'none'
         modes_tittle.style.textShadow = '1px 1px 1px rgba(0, 0, 0, 0.712)'
+        document.querySelector('#kromo').style.display = 'initial'
         
     })
     
@@ -112,4 +114,12 @@ window.onload = function () {
         
     })
     console.log(test);
+
+
+    document.querySelector('#kromo_link').addEventListener('mouseenter', function(){
+        document.querySelector('#kromo').style.opacity = '100%'
+    })
+    document.querySelector('#kromo_link').addEventListener('mouseout', function(){
+        document.querySelector('#kromo').style.opacity = '60%'
+    })
 }
