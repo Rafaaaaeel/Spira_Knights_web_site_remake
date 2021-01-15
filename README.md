@@ -1,5 +1,4 @@
 ## Spiral Knights webSite remake concept
-Spiral knigts web site remake, for study
 #
 # Why do this?
 I create this web site for study, and training html, css and Js..
