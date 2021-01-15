@@ -1,7 +1,7 @@
 ## Spira_Knights_web_site_remake
 Spiral knigts web site remake, for study
 #
-# Why do yhis?
+# Why do this?
 I create this web site for study, and training my html, css and Js..
 #
 # legal
